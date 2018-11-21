@@ -11,7 +11,7 @@ processes = []
 def home():
   return "Haziri API : ERP BITMESRA"
 
-@app.route('/api/v1/resources/haziri', methods=['GET'])
+@app.route('/api/v1/haziri', methods=['GET'])
 def getTable():
 
   if 'id' in request.args:
