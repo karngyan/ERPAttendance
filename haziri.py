@@ -43,7 +43,7 @@ def Haziri(username, password):
   browser.switch_to.frame(browser.find_element_by_name('TargetContent'))#Fucker Dimaag ka dahi kr diya tha iframe ne
   attendance_btn = browser.find_element_by_id('DERIVED_SSS_SCR_SSS_LINK_ANCHOR7')
   attendance_btn.click()
-  sleep(15)
+  sleep(20)
   radio_btn = browser.find_element_by_css_selector("input[type='radio'][value='0']")
   radio_btn.click()
   continue_btn = browser.find_element_by_class_name('SSSBUTTON_CONFIRMLINK')
